@@ -26,6 +26,7 @@ body{
     width: 150px; 
     padding: 10px;
     background-color: rgb(182, 148, 105);
+    border-radius: 100%;
 }
  
 .image-container {
