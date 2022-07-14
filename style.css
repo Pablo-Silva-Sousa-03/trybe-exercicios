@@ -1,3 +1,36 @@
-#título{font-family: Arial, Helvetica, sans-serif; color: rgb(68, 52, 28);  }
-body{font-family: 'Courier New', Courier, monospace; background-color: antiquewhite; color: rgb(68, 52, 28);  }
-.style-list{font-family: 'Times New Roman', Times, serif ;}
+#título{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: rgb(68, 52, 28); 
+    text-align: center; 
+}
+    
+body{
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: antiquewhite; 
+    color: rgb(68, 52, 28);  
+}
+
+.style-list:nth-child(odd) {
+    font-family: 'Times New Roman', Times, serif ;
+    background-color:rgb(223, 193, 159);
+}
+
+#descrição{ 
+    position: absolute; 
+    left: 25%;
+    top: 35%;
+}
+
+#imagem{ 
+    float: left; 
+    width: 150px; 
+    padding: 10px;
+    background-color: rgb(182, 148, 105);
+}
+ 
+.image-container {
+    height: 220px;
+
+    position: relative;   
+ }
+
